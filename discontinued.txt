@@ -1,0 +1,14 @@
+# Wines we are NOT planning to reorder.
+#
+# Vinosmith's "discontinued" checkbox is not exposed in its API, so we keep the
+# list here instead. One wine per line. The vintage is ignored when matching, so
+# listing any single vintage flags every vintage of that wine. Blank lines and
+# lines starting with # are ignored.
+#
+# Paste the name exactly as it appears in Vinosmith (the vintage is fine to leave
+# in -- it's stripped automatically).
+
+Nadal - '23 "X" Vermell
+Peique - '23 Mencia
+Peique - '22 Mencia "Viñedos Viejos"
+Peique - '22 Mencia "Tesín de la Campana"
