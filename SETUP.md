@@ -36,13 +36,15 @@ the `conda` command becomes available.
 ## 3. Download the project (clone the repo)
 
 ```
-cd ~/Documents
+cd ~
 git clone https://github.com/sauer3/twco-ordering.git
 cd twco-ordering
 ```
 
-(You can use a different folder than `~/Documents` if you prefer — just `cd`
-there first.)
+> **Important — do NOT put the project in Documents, Desktop, or Downloads.**
+> macOS blocks scheduled background jobs from reading those folders ("operation
+> not permitted"), which silently breaks the weekly emailed report. The home
+> folder (`~`) used above is safe.
 
 ## 4. Create the Python environment and install dependencies
 
@@ -101,7 +103,7 @@ to be generated and emailed **every Monday at 8:00 AM**.
 When the tool is improved, pull the latest version:
 
 ```
-cd ~/Documents/twco-ordering
+cd ~/twco-ordering
 git pull
 ```
 
